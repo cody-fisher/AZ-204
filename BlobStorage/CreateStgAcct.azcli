@@ -1,8 +1,8 @@
 az storage account create `
 --name secondstgacct `
---resource-group Skylines `
---location CentralUS `
+--resource-group BlobStorageDemo `
+--location EastUS `
 --kind StorageV2 `
 --sku Standard_ZRS `
 --https-only true `
---access-tier Hotn
+--access-tier Hot

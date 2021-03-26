@@ -1,6 +1,6 @@
 az cosmosdb create `
-    --name "skylinesdemoacct" `
-    --resource-group "Skylines" `
+    --name "cosmosdbdemoacctcf" `
+    --resource-group "CosmosDbDemo" `
     --default-consistency-level BoundedStaleness `
     --max-interval "300" `
     --max-staleness-prefix "100000" `
